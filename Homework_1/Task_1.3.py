@@ -1,0 +1,8 @@
+base = float(input("Enter length of base of triangle: "))
+x = float(input("Enter length of second side of triangle: "))
+y = float(input("Enter length of third side of triangle: "))
+h = float(input("Enter length of height of triangle: "))
+perimeter = (base + x + y)
+area = (base * h * 0.5)
+print("Perimeter of the triangle is", perimeter)
+print("Area of the triangle is", area)
